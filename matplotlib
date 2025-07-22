@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+plt.figure(figsize=(12, 8), dpi=100)
+
+exemplo_salario_minimo_anos = [300, 510, 788, 1045, 1804]
+exemplo_salario_minimo = [2005, 2010, 2015, 2020, 2025]
+
+plt.title("Gráfico salário minimo últimos anos")
+plt.xlabel("Salário em real")
+plt.ylabel("Últimos 20 anos (em ordem crescente)")
+plt.plot(exemplo_salario_minimo_anos, exemplo_salario_minimo, linestyle="--", marker="o")
+plt.legend(["Ano/Salário"])
+plt.grid()
+plt.show()
