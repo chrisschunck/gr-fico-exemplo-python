@@ -1,1 +1,1 @@
-# gr-fico-exemplo-python
+# Manipulação de dados, exemplo
